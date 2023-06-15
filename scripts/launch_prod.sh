@@ -11,6 +11,7 @@
 
 # Start uvicorn with live-reload
 uvicorn \
+    --reload \
     --proxy-headers \
     --host "$HOST" \
     --port "$PORT" \
